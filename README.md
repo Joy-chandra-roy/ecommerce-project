@@ -23,4 +23,4 @@ A full-stack e-commerce web application built with Django (backend) and React (f
 
 ## Author
 
-- Joy Chandra Roy
+*Joy Chandra Roy*
