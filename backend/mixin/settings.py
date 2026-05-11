@@ -81,6 +81,7 @@ MIDDLEWARE = [
 
 CORS_ALLOWED_ORIGINS = [
     "https://ecommerce-project-dtot.vercel.app"
+    "http://localhost:5173"
 ]
 
 ROOT_URLCONF = 'mixin.urls'

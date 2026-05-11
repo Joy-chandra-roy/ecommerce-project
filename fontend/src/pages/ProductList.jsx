@@ -33,7 +33,7 @@ const ProductList = () => {
 
   const handleSearch=()=>{
     setPage(1);
-    loadData();
+   
   }
 
   return (
