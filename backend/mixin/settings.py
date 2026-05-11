@@ -79,7 +79,9 @@ MIDDLEWARE = [
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
 
-CORS_ALLOW_ALL_ORIGINS = True
+CORS_ALLOW_ORIGINS = [
+    "https://ecommerce-project-dtot.vercel.app"
+]
 
 ROOT_URLCONF = 'mixin.urls'
 
