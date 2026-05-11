@@ -28,9 +28,9 @@ SECRET_KEY = 'django-insecure-hgtp0j2^8_7ghnajrv_5i+*oc1omj^u3noq57+rp5+!v$68009
 DEBUG = False
 
 ALLOWED_HOSTS = [
-    ".onrender.com",
+    "ecommerce-project-w4gu.onrender.com",
+    "127.0.0.1",
     "localhost",
-    "127.0.0.1"
 ]
 
 
