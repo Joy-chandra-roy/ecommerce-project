@@ -50,7 +50,7 @@ INSTALLED_APPS = [
     'apps.account',
     'apps.cetagories',
     'apps.products',
-     "corsheaders",
+    "corsheaders",
     
     
 ]
