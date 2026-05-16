@@ -12,8 +12,12 @@ const ProductCart = ({ product }) => {
   return (
     <div>
       <div className="card bg-base-100 w-96 shadow-sm">
-        <figure>
-          <img src={product.image} alt={product.name} />
+        <figure className="h-64 overflow-hidden">
+          <img
+            src={product.image}
+            alt={product.name}
+            className="w-full h-full object-cover"
+          />
         </figure>
 
         <div className="card-body">
